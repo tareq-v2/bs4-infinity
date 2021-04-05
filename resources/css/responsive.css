@@ -1,0 +1,99 @@
+/* RESPONSIVE CSS */
+
+@media only screen
+and (max-device-width : 319px){
+    .rounded-circle{
+        margin-top: 8px;
+        width: auto;
+        height: 30px;
+        padding-right: 0;
+    }
+
+    .header-middle h4{
+        margin-top: 20%;
+        font-size: 12px;
+    }
+    .search{
+        width: auto;
+        height: 30px;
+    }
+    .main .heading p{
+        font-size: 10px !important;
+    }
+    footer h5{
+        font-size: small;
+    }
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    .rounded-circle{
+        margin-top: 8px;
+        width: auto;
+        height: 30px;
+        padding-right: 0;
+    }
+    .header-middle h4{
+        font-size: 18px;
+    }
+    .search{
+        width: auto;
+        height: 30px;
+    }
+    .main .heading p{
+        font-size: 12px;
+    }
+}
+
+
+@media only screen
+and (min-device-width : 481px)
+and (max-device-width : 767px){
+    .rounded-circle{
+        width: auto;
+        height: 35px;
+    }
+    .search{
+        width: auto;
+        height: 30px;
+    }
+    .header-middle h4{
+        padding-top: 0;
+        font-size: 22px;
+    }
+}
+ 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    .ht{
+        font-size: 12px;
+    }
+    .htdiv2{
+        margin-top: 3px;
+    }
+    .mylogo{
+        margin-bottom: 5px;
+    }
+    .rounded-circle{
+        width: auto;
+        height: 42px;
+    }
+    header h4{
+        padding-left: 0;
+    }
+}
+
+@media only screen
+and (min-device-width : 1224px)
+and (max-device-width : 1824px)  {
+    .rounded-circle{
+        padding-top: 0;
+        width: auto;
+        height: 42px;
+    }
+    header h4{
+        padding-left: 0;
+    }
+}
+

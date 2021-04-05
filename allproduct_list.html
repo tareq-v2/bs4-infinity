@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=dev
+	ice-width, initial-scale=1.0">
+	<title>Infinity-shop</title>
+	<link rel="shortcut icon" href="resources/img/download.png" type="image/x-icon">
+	<link rel="stylesheet" href="resources/css/uikit.min.css">
+	<link rel="stylesheet" href="resources/css/all.min.css">
+	<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+	<link rel="stylesheet" href="resources/css/responsive.css">
+	<link rel="stylesheet" href="resources/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid px-0">
+		<header>
+			<div class="container-fluid px-0">
+				<div class="header-middle" uk-sticky="animation: uk-animation-slide-top">
+					<div class="container">
+						<div class="row" style="width: auto; height: 40px;">
+							<div class="col-4 col-lg-3">
+								<div class="row">
+									<div class="col-5 mylogo pt-0">
+										<img src="resources/img/download.png" class="img-fluid w-sm-100 rounded-circle" alt="logo">
+									</div>
+									<div class="col-7" style="padding-top: 6px; padding-left: 0;">
+										<a href="index.html"><h4>Infinity</h4></a>
+									</div>
+					 			</div>
+							</div>
+							<div class="col-5 col-lg-5 pt-1">
+									<div class="input-group">
+										<input type="text" placeholder="Search" class="form-control form-control-sm search-field">
+										<span class="input-group-append"> <button style="background-color: #3167eb; color: #fff;" class="btn btn-sm search-icon"> <i class="fa fa-search"></i></button></span>
+									</div>
+							</div>
+							<div class="col-3 col-lg-4 pt-1 hm-notify d-flex">
+								<div class="icontext mr-4" style="max-width: 300px;">
+									<span class="icon icon-sm rounded-circle bg-light">
+										<a href="#"><i class="fa fa-bell"></i></a>
+									</span>
+								</div> 
+								<div class="icontext mr-4" style="max-width: 300px;">
+									<span class="icon icon-sm rounded-circle bg-light">
+										<a href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
+									</span>
+								</div>
+								<div class="icontext mr-4 d-none d-sm-block" style="max-width: 300px;">
+									<span class="icon icon-sm rounded-circle bg-light">
+										<a href="login.html"><i class="fa fa-user"></i></a>
+									</span>
+								</div> 
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header-bottom">
+                    <div class="container px-0">
+                        <nav class="navbar navbar-expand-md navbar-light bg-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span><i class="fa fa-bars"></i></span>
+                            </button>
+                          
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <li class="nav-item dropdown active">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									  All category
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="allproduct_grid.html">All products</a>
+									  <a class="dropdown-item" href="login.html">Login</a>
+									  <a class="dropdown-item" href="register.html">Register</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									  Fasion
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									  <a class="dropdown-item" href="#">Fasion category 1</a>
+									  <a class="dropdown-item" href="#">Fasion category 2</a>
+									  <a class="dropdown-item" href="#">Fasion category 3</a>
+									</div>
+								</zli>
+                                <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Clothing
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Clothing category 1</a>
+                                    <a class="dropdown-item" href="#">Clothing category 2</a>
+                                    <a class="dropdown-item" href="#">Clothing category 3</a>
+                                  </div>
+                                </li>
+                                <li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									  Electronics
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									  <a class="dropdown-item" href="#">Electronics 1</a>
+									  <a class="dropdown-item" href="#">Electronics 2</a>
+									  <a class="dropdown-item" href="#">Electronics 3</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									  Fitness sport
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									  <a class="dropdown-item" href="#">Fitness sport 1</a>
+									  <a class="dropdown-item" href="#">Fitness sport 2</a>
+									  <a class="dropdown-item" href="#">Fitness sport 3</a>
+									</div>
+								</li>
+                              </ul>
+                            </div>
+                        </nav>
+                    </div>
+				</div>
+			</div>
+		</header>
+		<main class="allproduct">
+			<div class="container-fluid py-5 mb-3" style="background-color: #e7eaed;">
+				<div class="container">
+					<h5>All products</h5>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 col-md-3">
+						<div class="accordion pb-3" id="accordionExample">
+							<div class="card">
+							  <div class="card-header my-2" id="headingOne">
+								<h2 class="mb-0">
+								  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Product Type
+								  </button>
+								</h2>
+								<i class="icon-control fa fa-chevron-down" ></i>
+							  </div>
+							  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+								<div class="card-body">
+									<form method="POST">
+										<div class="input-group">
+											<input type="text" class="form-control">
+											<span class="input-group-append"> <button class="btn btn-primary"> <i class="fa fa-search"></i></button></span>
+										</div>
+										<ul class="list-menu pt-2">
+											<li><a href="#">People <span class="badge badge-pill badge-primary float-right">120</span> </a></li>
+											<li><a href="#">Watches <span class="badge badge-pill badge-primary float-right">42</span> </a></li>
+											<li><a href="#">Cinema <span class="badge badge-pill badge-primary float-right">16</span> </a></li>
+											<li><a href="#">Clothes <span class="badge badge-pill badge-primary float-right">87</span> </a></li>
+											<li><a href="#">Home items <span class="badge badge-pill badge-primary float-right">34</span></a></li>
+										</ul>
+									</form>
+								</div>
+							  </div>
+							</div>
+							<div class="card">
+								<div class="card-header my-2" id="headingTwo">
+								  <h2 class="mb-0">
+									<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+									  Brands
+									</button>
+								  </h2>
+								  <i class="icon-control fa fa-chevron-down" ></i>
+								</div>
+								<div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+								  <div class="card-body">
+									<div class="row">
+										<div class="col-md-6">
+											<label class="custom-control custom-checkbox">
+											  <input type="checkbox" class="custom-control-input">
+											  <div class="custom-control-label">Red </div>
+											</label>
+										</div>
+										<div class="col-md-6">
+											<label class="custom-control custom-checkbox">
+											  <input type="checkbox" class="custom-control-input">
+											  <div class="custom-control-label">Green </div>
+											</label>
+										</div>
+										<div class="col-md-6">
+											<label class="custom-control custom-checkbox">
+											  <input type="checkbox" class="custom-control-input">
+											  <div class="custom-control-label">Blue</div>
+											</label>
+										</div>
+										<div class="col-md-6">
+											<label class="custom-control custom-checkbox">
+											  <input type="checkbox" class="custom-control-input">
+											  <div class="custom-control-label">Orange</div>
+											</label>
+										</div>
+										<div class="col-md-6">
+											<label class="custom-control custom-checkbox">
+											  <input type="checkbox" class="custom-control-input">
+											  <div class="custom-control-label">Black </div>
+											</label>
+										</div>
+										<div class="col-md-6">
+											<label class="custom-control custom-checkbox">
+											  <input type="checkbox" class="custom-control-input">
+											  <div class="custom-control-label">White </div>
+											</label>
+										</div>
+									</div>
+									<a href="#" class="btn btn-light btn-sm mt-2 btn-block mb-2">Reset</a>
+								  </div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header my-2" id="headingThree">
+								  <h2 class="mb-0">
+									<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+									Range
+									</button>
+								  </h2>
+								  <i class="icon-control fa fa-chevron-down" ></i>
+								</div>
+								<div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
+								  <div class="card-body">
+									<input type="range" class="custom-range" min="0" max="100" name="">
+									<div class="form-row">
+									<div class="form-group col-md-6">
+									  <label>Min</label>
+									  <input class="form-control" placeholder="$0" type="number">
+									</div>
+									<div class="form-group text-right col-md-6">
+									  <label>Max</label>
+									  <input class="form-control" placeholder="$1,0000" type="number">
+									</div>
+									</div>
+									<a href="#" class="btn btn-light btn-sm mt-2 btn-block mb-2">Apply</a>
+								  </div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header my-2" id="headingFour">
+								  <h2 class="mb-0">
+									<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+									  Size
+									</button>
+								  </h2>
+								  <i class="icon-control fa fa-chevron-down" ></i>
+								</div>
+								<div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample">
+								  <div class="card-body">
+									<label class="checkbox-btn">
+										<input type="checkbox">
+										<span class="btn btn-light"> XS </span>
+									  </label>
+							
+									  <label class="checkbox-btn">
+										<input type="checkbox">
+										<span class="btn btn-light"> SM </span>
+									  </label>
+							
+									  <label class="checkbox-btn">
+										<input type="checkbox">
+										<span class="btn btn-light"> LG </span>
+									  </label>
+							
+									  <label class="checkbox-btn">
+										<input type="checkbox">
+										<span class="btn btn-light"> XXL </span>
+									  </label>
+							
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-9">
+						<div class="border-bottom mb-4 pb-3">
+							<div class="form-inline">
+								<span class="mr-md-auto">32 Items found </span>
+								<select class="mr-2 form-control">
+									<option>Latest items</option>
+									<option>Trending</option>
+									<option>Most Popular</option>
+									<option>Cheapest</option>
+								</select>
+								<div class="btn-group list-item">
+									<a href="allproduct_list.html" class="btn btn-outline-secondary active" data-toggle="tooltip" data-original-title="List view"> 
+										<i class="fa fa-bars"></i>
+									</a>
+									<a href="allproduct_grid.html" class="btn btn-outline-secondary" data-toggle="tooltip" data-original-title="Grid view"> 
+										<i class="fa fa-th"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="row no-gutters bg-white">
+							<aside class="col-md-3">
+								<a href="#" class="img-wrap">
+									<span class="badge badge-danger"> NEW </span>
+									<img src="resources/img/airpod.jpg">
+								</a>
+							</aside>
+							<div class="col-md-6">
+								<div class="info-main">
+									<a href="#" class="h5 title"> Apple air pods</a>
+									<div class="rating-wrap my-2">
+										<ul class="rating-stars">
+											<li style="width:80%" class="stars-active"> 
+												<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+												<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+												<i class="fa fa-star"></i> 
+											</li>
+										</ul>
+										<div class="label-rating">7/10</div>
+									</div>
+									<p> Take it as demo specs, ipsum dolor sit amet, consectetuer adipiscing elit, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, Ut wisi enim ad minim veniam </p>
+								</div>
+							</div>
+							<aside class="col-sm-3">
+								<div class="info-aside">
+									<div class="price-wrap">
+										<span class="price h5"> $140 </span>	
+										<del class="price-old"> $198</del>
+									</div>
+									<p class="text-success">Free shipping</p>
+									<br>
+									<p style="padding-top: 20px;">
+										<a href="#" class="btn btn-primary btn-block"> Details </a>
+										<a href="#" class="btn btn-light btn-block"><i class="fa fa-heart"></i> 
+											<span class="text">Add to wishlist</span>
+										</a>
+									</p>
+								</div>
+							</aside>
+						</div>
+						<div class="row no-gutters bg-white">
+							<aside class="col-md-3">
+								<a href="#" class="img-wrap">
+									<span class="badge badge-danger"> NEW </span>
+									<img src="resources/img/airpod.jpg">
+								</a>
+							</aside>
+							<div class="col-md-6">
+								<div class="info-main">
+									<a href="#" class="h5 title"> Apple air pods</a>
+									<div class="rating-wrap my-2">
+										<ul class="rating-stars">
+											<li style="width:80%" class="stars-active"> 
+												<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+												<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+												<i class="fa fa-star"></i> 
+											</li>
+										</ul>
+										<div class="label-rating">7/10</div>
+									</div>
+									<p> Take it as demo specs, ipsum dolor sit amet, consectetuer adipiscing elit, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, Ut wisi enim ad minim veniam </p>
+								</div>
+							</div>
+							<aside class="col-sm-3">
+								<div class="info-aside">
+									<div class="price-wrap">
+										<span class="price h5"> $140 </span>	
+										<del class="price-old"> $198</del>
+									</div>
+									<p class="text-success">Free shipping</p>
+									<br>
+									<p style="padding-top: 20px;">
+										<a href="#" class="btn btn-primary btn-block"> Details </a>
+										<a href="#" class="btn btn-light btn-block"><i class="fa fa-heart"></i> 
+											<span class="text">Add to wishlist</span>
+										</a>
+									</p>
+								</div>
+							</aside>
+						</div>
+						<div class="row no-gutters bg-white">
+							<aside class="col-md-3">
+								<a href="#" class="img-wrap">
+									<span class="badge badge-danger"> NEW </span>
+									<img src="resources/img/airpod.jpg">
+								</a>
+							</aside>
+							<div class="col-md-6">
+								<div class="info-main">
+									<a href="#" class="h5 title"> Apple air pods</a>
+									<div class="rating-wrap my-2">
+										<ul class="rating-stars">
+											<li style="width:80%" class="stars-active"> 
+												<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+												<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+												<i class="fa fa-star"></i> 
+											</li>
+										</ul>
+										<div class="label-rating">7/10</div>
+									</div>
+									<p> Take it as demo specs, ipsum dolor sit amet, consectetuer adipiscing elit, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, Ut wisi enim ad minim veniam </p>
+								</div>
+							</div>
+							<aside class="col-sm-3">
+								<div class="info-aside">
+									<div class="price-wrap">
+										<span class="price h5"> $140 </span>	
+										<del class="price-old"> $198</del>
+									</div>
+									<p class="text-success">Free shipping</p>
+									<br>
+									<p style="padding-top: 20px;">
+										<a href="#" class="btn btn-primary btn-block"> Details </a>
+										<a href="#" class="btn btn-light btn-block"><i class="fa fa-heart"></i> 
+											<span class="text">Add to wishlist</span>
+										</a>
+									</p>
+								</div>
+							</aside>
+						</div>
+						<div class="container mt-3">
+							<div class="row justify-content-end">
+								<ul class="pagination">
+									<li class="page-item disabled">
+										<a class="page-link" href="#" tabindex="-1">Previous</a>
+									</li>
+									<li class="page-item"><a class="page-link" href="#">1</a></li>
+									<li class="page-item"><a class="page-link" href="#">2</a></li>
+									<li class="page-item"><a class="page-link" href="#">3</a></li>
+									<li class="page-item">
+										<a class="page-link" href="#">Next</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="container-fluid p-0">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<h5>Contact information</h5>
+						<p><span><i class="fas fa-map"></i></span> Address</p><span class="text-muted" style="padding-left: 20px; font-size: 13px;">Latu mia road, Feni</span>
+						<p style="margin: 7px 0 0 0;"><i class="fas fa-comment"></i></span> Helpline</p><span class="text-muted" style="padding-left: 20px; font-size: 13px;">+8801836135392</span>
+						<p style="margin: 7px 0 0 0;"><i class="fas fa-question-circle"></i></span> Enquiry</p><span class="text-muted" style="padding-left: 20px; font-size: 13px;">trqhossain@gmail.com</span>
+					</div>
+					<div class="col-12 col-md-4">
+						<h5>User Guides</h5>
+						<span class="pt-3">						
+							<a href="#" class="d-block">Terms and Conditions.</a>
+							<a href="#" class="d-block">Privacy Policy.</a>
+							<a href="#">Some Common Q&A.</a>
+						</span>
+						<div>
+							<p>Media</p>
+							<ul class="media mt-0">
+								<li>
+									<a href="#">
+										<i class="fab fa-facebook-f">
+										</i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-instagram"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-twitter"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-pinterest"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						
+					</div>
+					<div class="col-12 col-md-4 gettouch">
+						<h5>Get in touch</h5>
+						<div>
+							<div class="container p-0">
+								<p class="pt-1 pb-0">Download our mobile Apps</p>
+								<div>
+									<ul class="media">
+										<li>
+											<a href="#">
+												<i class="fab fa-google-play"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<i class="fab fa-apple"></i>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<p class="pt-1 pb-0">We Accept</p>
+						<div>
+							<ul class="media">
+								<li>
+									<a href="#">
+										<i class="fab fa-paypal"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-cc-visa"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-cc-mastercard"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>	
+		<div class="container-fluid p-0 m-0">
+			<p class="d-block text-center pt-1 bg-primary p-0 m-0" style="color: #fff;">&copy infinity 2021</p>
+		</div>
+		</footer>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="resources/js/bootstrap.bundle.min.js"></script>
+	<script src="resources/js/bootstrap.min.js"></script>
+	<script src="resources/js/uikit.min.js"></script>
+</body>
+</html>
